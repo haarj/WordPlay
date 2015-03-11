@@ -17,6 +17,8 @@
 		33164F2A1AAFA73800D00A89 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33164F291AAFA73800D00A89 /* EnterNameViewController.m */; };
 		33164F2D1AAFA7B800D00A89 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33164F2C1AAFA7B800D00A89 /* EnterAdjectiveViewController.m */; };
 		33164F301AAFA8AB00D00A89 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33164F2F1AAFA8AB00D00A89 /* ResultsViewController.m */; };
+		33164F331AAFD8CD00D00A89 /* AdverbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33164F321AAFD8CD00D00A89 /* AdverbViewController.m */; };
+		33164F361AAFDA9A00D00A89 /* NounViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33164F351AAFDA9A00D00A89 /* NounViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		33164F2C1AAFA7B800D00A89 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
 		33164F2E1AAFA8AB00D00A89 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		33164F2F1AAFA8AB00D00A89 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		33164F311AAFD8CD00D00A89 /* AdverbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdverbViewController.h; sourceTree = "<group>"; };
+		33164F321AAFD8CD00D00A89 /* AdverbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdverbViewController.m; sourceTree = "<group>"; };
+		33164F341AAFDA9A00D00A89 /* NounViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NounViewController.h; sourceTree = "<group>"; };
+		33164F351AAFDA9A00D00A89 /* NounViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NounViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,10 @@
 				33164F291AAFA73800D00A89 /* EnterNameViewController.m */,
 				33164F2B1AAFA7B800D00A89 /* EnterAdjectiveViewController.h */,
 				33164F2C1AAFA7B800D00A89 /* EnterAdjectiveViewController.m */,
+				33164F311AAFD8CD00D00A89 /* AdverbViewController.h */,
+				33164F321AAFD8CD00D00A89 /* AdverbViewController.m */,
+				33164F341AAFDA9A00D00A89 /* NounViewController.h */,
+				33164F351AAFDA9A00D00A89 /* NounViewController.m */,
 				33164F2E1AAFA8AB00D00A89 /* ResultsViewController.h */,
 				33164F2F1AAFA8AB00D00A89 /* ResultsViewController.m */,
 				33164F0C1AAFA66700D00A89 /* Main.storyboard */,
@@ -239,6 +249,8 @@
 				33164F2D1AAFA7B800D00A89 /* EnterAdjectiveViewController.m in Sources */,
 				33164F301AAFA8AB00D00A89 /* ResultsViewController.m in Sources */,
 				33164F2A1AAFA73800D00A89 /* EnterNameViewController.m in Sources */,
+				33164F331AAFD8CD00D00A89 /* AdverbViewController.m in Sources */,
+				33164F361AAFDA9A00D00A89 /* NounViewController.m in Sources */,
 				33164F051AAFA66700D00A89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +442,7 @@
 				33164F241AAFA66700D00A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33164F251AAFA66700D00A89 /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +451,7 @@
 				33164F271AAFA66700D00A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

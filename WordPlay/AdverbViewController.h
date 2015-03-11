@@ -1,5 +1,5 @@
 //
-//  ResultsViewController.h
+//  AdverbViewController.h
 //  WordPlay
 //
 //  Created by Justin Haar on 3/10/15.
@@ -8,12 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ResultsViewController : UIViewController
+@interface AdverbViewController : UIViewController
 
 @property NSString *name;
 @property NSString *adjective;
-@property NSString *adverb;
-@property NSString *noun;
-
 
 @end

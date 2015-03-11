@@ -18,9 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.resultsTextView.text = [NSMutableString stringWithFormat:@"%@ is a %@ person who %@ codes %@", self.name, self.adjective, self.adverb, self.noun];
 
-    NSMutableString *result = @"%@ has a %@ house", nameTextField.text, adjectiveTextField.text;
-    self.resultsTextView.text = result;
 }
+
+
 
 @end

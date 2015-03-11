@@ -1,40 +1,34 @@
 //
-//  EnterAdjectiveViewController.m
+//  NounViewController.m
 //  WordPlay
 //
 //  Created by Justin Haar on 3/10/15.
 //  Copyright (c) 2015 Mobile Makers. All rights reserved.
 //
 
-#import "EnterAdjectiveViewController.h"
-#import "AdverbViewController.h"
 #import "NounViewController.h"
 #import "ResultsViewController.h"
 
-@interface EnterAdjectiveViewController ()
+@interface NounViewController ()
 
-@property (weak, nonatomic) IBOutlet UITextField *adjectiveTextField;
+@property (weak, nonatomic) IBOutlet UITextField *nounTextField;
 
 @end
 
-@implementation EnterAdjectiveViewController
+@implementation NounViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-- (IBAction)adjective:(UIButton *)sender {
-    NSLog(@"%@  %@", self.name, self.adjectiveTextField.text);
+    // Do any additional setup after loading the view.
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UIButton *)sender {
     ResultsViewController *resultsViewController = segue.destinationViewController;
     resultsViewController.name = self.name;
-    resultsViewController.adjective = self.adjectiveTextField.text;
+    resultsViewController.adjective = self.adjective;
+    resultsViewController.adverb = self.adverb;
+    resultsViewController.noun = self.nounTextField.text;
 
 }
-
-
-
-
 
 @end
